@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Stunning Web Developer Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">Port<span class="highlight">folio.</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html" style="color: var(--accent-1)">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding">
+        <div class="hero-content hidden">
+            <h2 class="greeting">Hello, I'm</h2>
+            <h1 class="name">A Web <span class="highlight">Developer</span></h1>
+            <h3 class="typing-text">I build <span id="typed-output"></span><span class="cursor">|</span></h3>
+            <p class="hero-description">
+                Passionate about creating stunning, responsive, and dynamic web experiences. 
+                I specialize in HTML, CSS, JavaScript, Python, C, and SQL.
+            </p>
+            <div class="hero-buttons">
+                <a href="contact.html" class="btn primary-btn">Hire Me <i class="fas fa-paper-plane"></i></a>
+                <a href="projects.html" class="btn secondary-btn">View Work <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
