@@ -2,7 +2,7 @@
 const typedTextSpan = document.getElementById("typed-output");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Modern Websites.", "Interactive UIs.", "Scalable Systems.", "Digital Experiences."];
+const textArray = ["HTML & CSS.", "JavaScript.", "Responsive Pages.", "My First Portfolio."];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 2000; // Delay between current and next text
@@ -66,6 +66,7 @@ document.querySelectorAll('.hidden').forEach((element) => {
 // Navbar background change on scroll
 window.addEventListener('scroll', () => {
     const nav = document.getElementById('navbar');
+    if (!nav) return;
     if (window.scrollY > 50) {
         nav.style.background = 'rgba(15, 23, 42, 0.95)';
         nav.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.1)';
